@@ -1,0 +1,207 @@
+:root {
+    --colorBrown: #e08b6c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #ffffff;
+}
+
+.website-header {
+    padding: 20px;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-header img {
+    width: 6%;
+    margin: 0 30px;
+}
+
+.website-header h1 {
+    /* it will be help to  replace the center 
+    by following the code : [margin: 0 auto;] */
+    margin: 0 auto;
+}
+
+.social-icon {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.social-icon i {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+ul.navbar-nav {
+    margin-bottom: 22px;
+    margin-left: 24%;
+}
+
+a.nav-link {
+    color: #ffffff;
+}
+
+nav {
+    background-color: rgb(223, 158, 158);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    color: hsl(68, 40%, 4%);
+    border-bottom: 2px solid #0d0a0a;
+
+}
+
+
+/* uppeer-menu */
+.uppeer-menu ul li {
+    float: left;
+}
+
+.uppeer-menu ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+}
+
+.uppeer-menu ul li a {
+    /* color: #ffffff; */
+    font-size: 25px;
+    padding: 33px;
+}
+
+.breaking-news-section {
+    padding: 0 30px 0 62px;
+    display: flex;
+    height: 47px;
+}
+
+#breaking-title {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.breaking-news {
+    padding: 33px;
+    color: #ffffff;
+    font-weight: 500;
+    /* display: inline-block; */
+    font-size: 20px;
+    text-decoration: none;
+    /* margin-top: 4px; */
+}
+
+.btime {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.images img {
+    width: 70%;
+    height: auto;
+}
+
+.img-one {
+    width: 40%;
+    height: auto;
+    border-radius: 28%;
+}
+
+.icon {
+    font-size: 27px;
+}
+
+.icon ul {
+    list-style-type: none;
+}
+
+.icon ul li {
+    float: left;
+}
+
+.icon ul li a {
+    padding: 4px;
+}
+
+/* main conatian */
+#secondary-contain {
+    /* display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+.col-md-3 img {
+    width: 250px;
+    height: 400px;
+    margin: 3px;
+}
+
+.col-left {
+    display: flex;
+    column-gap: 24px;
+}
+
+.four-item {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.left-img img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.footer-title h2 {
+    text-align: center;
+    font-weight: 400;
+    background-color: #0d0a0a;
+    color: #ffffff;
+    height: 49px;
+    margin-top: 21px;
+    padding: 11px;
+    font-size: 20px;
+}
+
+.fa-regular.fa-star {
+    padding: 6px;
+    text-align: center;
+}
+
+.col-md-4 ul {
+    list-style-type: none;
+}
+
+.col-md-4 ul li {
+    float: left;
+}
+
+.col-md-4 ul li a {
+    padding: 4px;
+}
+
+.col-md-4 ul li a:hover {}
